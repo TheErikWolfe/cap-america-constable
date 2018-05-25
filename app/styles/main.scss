@@ -2,9 +2,14 @@
 
 $captain-light-blue: #0000ff;
 $captain-dark-blue: #002d5c;
-$captain-red: #870000;
+$captain-red: #b61313;
 $captain-dark-grey: #a5a5ab;
 $captain-light-grey: #f0f0f0;
+
+//Figure out how to make different color text outside of bootstrap.
+
+$headings-font-family: 'Faster One', serif;
+$font-family-base: 'NTR', sans-serif;
 
 .img_resize { 
 	width: 40%;
@@ -15,11 +20,27 @@ html {
     height: 100%;
 }
 
-$headings-font-family: 'Faster One', serif;
-$font-family-base: 'NTR', sans-serif;
+.img-center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.header-h1 {
+	@extend .display-4;
+	@extend .text-center; 
+	@extend .pt-3;
+	@extend .pb-3;
+	color: $captain-red;
+}
+
 
 p, li {
 	font-size: 1.4rem;
+	@extend .text-light;
+	@extend .text-left;
 }
 
 ul {

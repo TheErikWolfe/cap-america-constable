@@ -6,6 +6,15 @@
 html {
   height: 100%; }
 
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+
+.header-h1 {
+  color: #b61313; }
+
 p, li {
   font-size: 1.4rem; }
 
@@ -362,7 +371,7 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2; }
 
-.display-4 {
+.display-4, .header-h1 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2; }
@@ -5284,7 +5293,7 @@ button.bg-dark:focus {
 .p-3 {
   padding: 1rem !important; }
 
-.pt-3,
+.pt-3, .header-h1,
 .py-3 {
   padding-top: 1rem !important; }
 
@@ -5292,7 +5301,7 @@ button.bg-dark:focus {
 .px-3 {
   padding-right: 1rem !important; }
 
-.pb-3,
+.pb-3, .header-h1,
 .py-3 {
   padding-bottom: 1rem !important; }
 
@@ -6107,13 +6116,13 @@ button.bg-dark:focus {
   text-overflow: ellipsis;
   white-space: nowrap; }
 
-.text-left {
+.text-left, p, li {
   text-align: left !important; }
 
 .text-right {
   text-align: right !important; }
 
-.text-center {
+.text-center, .header-h1 {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -6208,7 +6217,7 @@ a.text-warning:hover, a.text-warning:focus {
 a.text-danger:hover, a.text-danger:focus {
   color: #bd2130 !important; }
 
-.text-light {
+.text-light, p, li {
   color: #f8f9fa !important; }
 
 a.text-light:hover, a.text-light:focus {
