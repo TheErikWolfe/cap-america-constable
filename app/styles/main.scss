@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|NTR');
 
+$captain-light-blue: #0000ff;
+$captain-dark-blue: #002d5c;
+$captain-red: #870000;
+$captain-dark-grey: #a5a5ab;
+$captain-light-grey: #f0f0f0;
+
+.img_resize { 
+	width: 40%;
+	height: auto;
+}
+
+html {
+    height: 100%;
+}
+
+$headings-font-family: 'Faster One', serif;
+$font-family-base: 'NTR', sans-serif;
+
+body {
+	background: linear-gradient($captain-light-blue, $captain-dark-blue, $captain-dark-grey);
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 //Keep this at the bottom
 @import "node_modules/bootstrap/scss/bootstrap";
