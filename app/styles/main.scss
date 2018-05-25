@@ -18,6 +18,14 @@ html {
 $headings-font-family: 'Faster One', serif;
 $font-family-base: 'NTR', sans-serif;
 
+p, li {
+	font-size: 1.4rem;
+}
+
+ul {
+	list-style-position:inside;
+}
+
 body {
 	background: linear-gradient($captain-light-blue, $captain-dark-blue, $captain-dark-grey);
 	height: 100%;
